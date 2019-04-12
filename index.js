@@ -40,9 +40,10 @@ function viewCart() {
 
 function total() {
   let totalPrice = [];
+  var sum = 0;
   for(let i = 0; i < totalPrice.length; i++) {
     totalPrice.push(`${cart[i].itemPrice}`);
-    return( totalPrice.reduce((a + b) => a + b, 0))
+    
     
   }
 }
