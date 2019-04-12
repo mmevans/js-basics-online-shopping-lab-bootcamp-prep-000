@@ -15,7 +15,10 @@ function setCart(c) {
 
 function addToCart(item) {
   var newCart = new Object({});
-  
+  function updateObjectWithKeyAndValue(newCart, itemName, item) {
+    newCart[itemName] = item;
+    function 
+  }
 }
 
 function viewCart() {
