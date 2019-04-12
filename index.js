@@ -39,13 +39,14 @@ function viewCart() {
 }
 
 function total() {
-  let totalPrice = [];
+ /* let totalPrice = [];
   var sum = 0;
   for(let i = 0; i < totalPrice.length; i++) {
     totalPrice.push(`${cart[i].itemPrice}`);
     sum += totalPrice;
     return sum;
   }
+  */
 }
 
 function removeFromCart(item) {
