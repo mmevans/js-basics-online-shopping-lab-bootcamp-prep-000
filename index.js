@@ -18,7 +18,7 @@ function addToCart(item) {
   function updateObjectWithKeyAndValue(newCart, itemName, item) {
     newCart[itemName] = item;
     Object.assign(newCart, {itemPrice: getRandomInt(101)});
-    
+    cart.push(newCart);
   }
 }
 
