@@ -43,6 +43,8 @@ function total() {
   var sum = 0;
   for(let i = 0; i < totalPrice.length; i++) {
     totalPrice.push(`${cart[i].itemPrice}`);
+    sum += totalPrice;
+    return sum;
     
     
   }
