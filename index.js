@@ -14,10 +14,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var emptyCart = new Object({});
-  function updateObjectItem(emptyCart, itemName, item) {
-    
-  }
+  
 }
 
 function viewCart() {
