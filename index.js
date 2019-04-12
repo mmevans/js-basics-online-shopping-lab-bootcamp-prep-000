@@ -40,7 +40,10 @@ function viewCart() {
 
 function total() {
   let totalPrice = [];
-  
+  for(let i = 0; i < totalPrice.length; i++) {
+    totalPrice.push(`${cart[i].itemPrice}`);
+    
+  }
 }
 
 function removeFromCart(item) {
