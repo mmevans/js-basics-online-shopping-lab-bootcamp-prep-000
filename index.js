@@ -31,7 +31,7 @@ function viewCart() {
     return(`In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`);
   }
   if (cart.length === 2) {
-    return()
+    return(`In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice} and )
   }
 }
 
