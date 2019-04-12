@@ -23,7 +23,7 @@ function viewCart() {
   if(cart.length === 0) {
     return("Your shopping cart is empty.");
   } else if (cart.length === 1) {
-    return(`In your cart, you have ` + newItem + ` at $` + newPrice + `.`) 
+    return(`In your cart, you have ` + newItem[itemName] + ` at $` + newPrice[itemPrice] + `.`) 
   }
 }
 
