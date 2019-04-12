@@ -42,7 +42,7 @@ function total() {
   let totalPrice = [];
   for(let i = 0; i < totalPrice.length; i++) {
     totalPrice.push(`${cart[i].itemPrice}`);
-    console.log(totalPrice.reduce((a + b)))
+    console.log(totalPrice.reduce((a + b) => a + b, 0))
     
   }
 }
