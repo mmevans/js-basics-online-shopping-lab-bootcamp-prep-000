@@ -15,11 +15,6 @@ function setCart(c) {
 
 function addToCart(item) {
   var newCart = new Object({});
-  function updateObjectWithKeyAndValue(newCart, itemName, item) {
-    newCart[itemName] = item;
-    Object.assign(newCart, {itemPrice: getRandomInt(101)});
-    cart.push(newCart);
-  }
 }
 
 function viewCart() {
