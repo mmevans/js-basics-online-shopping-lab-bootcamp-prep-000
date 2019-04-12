@@ -17,7 +17,9 @@ function addToCart(item) {
   var newCart = new Object({});
   function updateObjectWithKeyAndValue(newCart, itemName, item) {
     newCart[itemName] = item;
-    function 
+    function updateObjectWithPrice(newCart, itemPrice, ) {
+      
+    }
   }
 }
 
