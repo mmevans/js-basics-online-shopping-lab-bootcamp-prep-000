@@ -18,6 +18,8 @@ function addToCart(item) {
   //cart.push(newItem);
   var newPrice = {itemPrice: getRandomInt(101)};
   //cart.push(newPrice);
+  var itemAndPrice = Object.assign(newItem, newPrice);
+  cart.push(itemAndPrice);
   
   console.log(`${item} has been added to your cart.`);
 }
