@@ -14,6 +14,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
+  var newCart = new Object({});
   
 }
 
