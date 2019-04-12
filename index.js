@@ -39,7 +39,8 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
+  let totalPrice = [];
+  
 }
 
 function removeFromCart(item) {
