@@ -20,6 +20,10 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  var array = [];
+  for(let i = 0; i < array.length; i++) {
+    
+  }
   if(cart.length === 0) {
     return("Your shopping cart is empty.");
   } else if (cart.length === 1) {
